@@ -1,0 +1,9 @@
+{% extends 'demoapp/base.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<h1>Welcome to my site</h1>
+<p>This is just a quite simple Django template.</p>
+<h1 x-data="{ message: 'I ❤️ Alpine' }" x-text="message"></h1>
+{% endblock %}
